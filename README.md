@@ -22,4 +22,5 @@ A simple chat application built using Ionic/Vue using Firebase and Capacitor.
 0. Make sure you have the latest version of Ionic by running ```npm install -g @ionic/cli@latest```
 1. Clone the repository and ```cd``` into the project.
 2. Create a new project the [firebase console](https://console.firebase.google.com/) and replace firebaseConfig in src/firebase.ts 
-3. Run ```npm i && ionic serve```
+3. create both authentication and firestore database and don't forget to give permission to read write.
+4. Run ```npm i && ionic serve```
